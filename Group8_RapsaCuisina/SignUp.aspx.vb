@@ -72,7 +72,7 @@ Public Class SignUp
             con.Close()
 
             ' Redirect to Default page on success
-            Response.Redirect("Default.aspx")
+            Response.Redirect("MainPage.aspx")
         Catch ex As Exception
             ' Handle database connection or other errors
             Label1.Text = "An error occurred. Please try again later."
